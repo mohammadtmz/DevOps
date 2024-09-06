@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "testbucket"{
   acl = "private"
 
   tags = {
-    Name = "MyS3Bucket"
+    Name = "TerraformTest"
   }
 }
 
